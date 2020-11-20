@@ -1,0 +1,71 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    color: white
+}
+
+
+h1{
+    font-size: 2.5rem;
+}
+
+#logo-title{
+    color: white;
+}
+
+ 
+
+.datum-bg {
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    background-image: url("index-bg.jpg");
+    opacity: 0.8;
+    background-position: 40% 80%;
+    background-size: auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+footer{
+    background-color: #143a75;
+}
+
+.datum-bg h2{
+    margin-top: 2em 1em 3em;
+    padding-top: 3em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#signup-button{
+    margin-left: -6em;
+}
+
+
+.emailtxt{
+    width: 80%;
+}
+
+.email-form{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+.solution-page{
+    background-image: linear-gradient(to left top, #041631, #061f41, #0a2852, #0e3163, #143a75);
+    text-align: center;
+    padding: 2em 0 2em;
+}
+.solution-page p{
+    padding: 1em 2em 2em 2em;
+}
+
+.solution-page h1 span{
+    display: block;
+}
+
+#signup-slogan{
+    
+}
