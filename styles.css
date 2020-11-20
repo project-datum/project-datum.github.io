@@ -13,7 +13,6 @@ h1{
     color: white;
 }
 
- 
 
 .datum-bg {
     color: white;
@@ -28,7 +27,7 @@ h1{
 }
 
 footer{
-    background-color: #143a75;
+    background-image: linear-gradient(to left top, #041631, #061f41, #0a2852, #0e3163, #143a75);
 }
 
 .datum-bg h2{

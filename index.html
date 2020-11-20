@@ -13,17 +13,17 @@
     
     <section class='hero is-medium is-bold datum-bg'>
         <div class="hero-head">
-            <nav class="navbar">
+            <nav class="navbar is-white" role="navigation">
                 <div class="container">
                     <div class="navbar-brand">
                         <a class="navbar-item" id="logo-title">
                             Project Datum
                         </a>
                     </div>
-                    <div class="navbar-menu">
+                    <div class="navbar-menu is-active">
                         <div class="navbar-end">
-                            <a href="#" class="button is-dark">
-                                Sign Up
+                            <a href="/joinus.html" class="navbar-item button is-link">
+                                Join Us
                             </a>
                         </div>
                     </div>
@@ -42,26 +42,30 @@
             <p class="mb-5">Project Datum is a not-for-profit initiative that analyzes the mainstream applications and expose their wrongdoings</p>
         
             <div class='email-form pb-6'>
-                <form action="submit">
-                    <label class="is-italic is-size-4" for="email" id="signup-slogan">Join the Uphill Battle Against Data Abuse</label>
-                    <div class="columns">
-                        <div class="column is-10 is-offset-1">
-                            <div class="control mt-5 has-icons-left emailtxt">
-                            <input type="email" class="input is-rounded is-info" placeholder="Email Address" name="email" id="email"> 
-                            <span class="icon is-small is-left">
-                                <i class="fa fa-envelope"></i>
-                            </span>
-                            </div>
-                        </div>
-                        <div class="column is-narrow" id="signup-button">
-                        <input class="button mt-5 is-link" type="button" value="Sign Up">
-                        </div>
-                    </div>
+                            
+            <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup has-text-centered">
+            <form action="https://gmail.us7.list-manage.com/subscribe/post?u=5b2fd57c1a10cc21a12fc971a&amp;id=004a68088b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="control mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email input is-rounded is-info" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5b2fd57c1a10cc21a12fc971a_004a68088b" tabindex="-1" value=""></div>
+                <div class="clear">
+                    <br>
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button is-link"></div>
                 </div>
-                </form>
+            </form>
             </div>
-            <div class="typeform-widget" data-url="https://form.typeform.com/to/tVEk3INx" style="width: 100%; height: 350px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=tVEk3INx&utm_source=typeform.com-01EQAE11Z7AA53FSME9W7MTAC4-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-        </section>
+
+            <!--End mc_embed_signup-->
+
+            </div>
         <footer>
             <div class="content has-text-centered">
                 <p>
